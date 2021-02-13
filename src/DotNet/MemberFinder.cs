@@ -10,6 +10,7 @@ namespace dnlib.DotNet {
 	/// faster to call ResolveMethodDef(), ResolveTypeRef() etc.
 	/// </summary>
 	public class MemberFinder {
+
 		enum ObjectType {
 			Unknown,
 			EventDef,
